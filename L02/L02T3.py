@@ -1,0 +1,13 @@
+print("Tämä ohjelma laskee neljän tenttiarvosanan keskiarvon.")
+T1 = int(input("Anna 1. tenttiarvosana väliltä 0-5: "))
+T2 = int(input("Anna 2. tenttiarvosana väliltä 0-5: "))
+T3 = int(input("Anna 3. tenttiarvosana väliltä 0-5: "))
+T4 = int(input("Anna 4. tenttiarvosana väliltä 0-5: "))
+Summa = T1 + T2 + T3 + T4
+Keskiarvo = float(Summa / 4)
+Keko = int(Keskiarvo)
+print()
+print("Antamiesi arvosanojen summa on " + str(Summa) + ".")
+print("Antamiesi arvosanojen keskiarvo on " + str(round(Keskiarvo, 1)) + ".")
+print("Keskiarvo on kokonaislukuna " + str(Keko) + ".")
+print("Kiitos ohjelman käytöstä.")
